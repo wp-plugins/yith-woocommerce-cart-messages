@@ -5,7 +5,7 @@ Plugin URI: http://yithemes.com/themes/plugins/yith-woocommerce-cart-messages
 Description: WooCommerce plugin for add custom messages to your customers
 Author: Yithemes
 Text Domain: ywcm
-Version: 1.0
+Version: 1.0.1
 Author URI: http://yithemes.com/
 */
 
