@@ -43,7 +43,7 @@ if ( !class_exists( 'YWCM_Cart_Messages' ) ) {
         /**
          * @var string Doc Url
          */
-        public $doc_url = 'http://yithemes.com/docs-plugins/yith_woocommerce_cart_messages/';
+        public $doc_url = 'http://yithemes.com/docs-plugins/yith-woocommerce-cart-messages';
 
         /**
          * Constructor

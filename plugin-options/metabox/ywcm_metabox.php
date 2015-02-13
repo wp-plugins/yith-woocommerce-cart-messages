@@ -98,7 +98,7 @@ return array(
                         'desc'  => '',
                         'type'     => 'chosen',
                         'multiple' => true,
-                        'options'  => yit_get_shop_categories(false),
+                        'options'  => ywcm_get_shop_categories(false),
                         'std'      => array(),
                         'deps'  => array(
                             'ids'    => '_ywcm_message_type',
