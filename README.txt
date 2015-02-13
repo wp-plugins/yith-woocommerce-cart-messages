@@ -17,6 +17,8 @@ Improve the user experience, improve your sales
 The YITH Woocommerce Cart Messages plugin let you add custom messages in the cart page and/or in the checkout page.
 In this plugin you can use the simple message, the products in cart and the categories in cart messages.
 
+Please, read the the **[official plugin documentation](http://yithemes.com/docs-plugins/yith-woocommerce-cart-messages)** to know all plugin features.
+
 
 = Installation =
 
