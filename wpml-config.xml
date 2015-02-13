@@ -1,0 +1,5 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1">ywcm_message</custom-type>
+    </custom-types>
+</wpml-config>
