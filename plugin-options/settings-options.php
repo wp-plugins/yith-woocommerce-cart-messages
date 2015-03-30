@@ -12,6 +12,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 } // Exit if accessed directly
 
+global $YWCM_Instance;
 
 return array(
 
@@ -34,7 +35,7 @@ of YITH WooCommerce Cart Messages to benefit from all features!', 'ywcm'),
                 'title_second_column' => __( 'Get Support and Pro Features', 'ywcm' ),
                 'description_second_column' => __('By purchasing the premium version of the plugin, you will take advantage of the advanced features of the product and you will get one year of free updates and support through our platform available 24h/24.', 'ywcm'),
                 'button' => array(
-                    'href' => 'http://yithemes.com/themes/plugins/yith-woocommerce-cart-messages/',
+                    'href' => $YWCM_Instance->get_premium_landing_uri(),
                     'title' => 'Get Support and Pro Features'
                 )
             ),

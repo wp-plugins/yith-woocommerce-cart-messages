@@ -130,8 +130,8 @@ if ( !class_exists( 'YWCM_Cart_Message' ) ) {
             $defaults = array(
                 'post_type'      => $this->post_type_name,
                 'post_status'    => 'publish',
-                'posts_per_page' => - 1
-
+                'posts_per_page' => - 1,
+                'suppress_filters' => false
             );
 
             $args = wp_parse_args( $args, $defaults );

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: YIT WooCommerce Cart Messages\n"
-"POT-Creation-Date: 2015-02-13 11:47+0100\n"
-"PO-Revision-Date: 2015-02-13 11:47+0100\n"
+"POT-Creation-Date: 2015-03-30 11:55+0100\n"
+"PO-Revision-Date: 2015-03-30 11:55+0100\n"
 "Last-Translator: \n"
 "Language-Team: Yithemes <plugins@yithemes.com>\n"
 "Language: en\n"
@@ -165,8 +165,8 @@ msgid "Plugin Documentation"
 msgstr ""
 
 #: ../class.yith-woocommerce-cart-messages.php:495
-#: ../plugin-options/settings-options.php:24
-#: ../plugin-options/settings-options.php:32
+#: ../plugin-options/settings-options.php:25
+#: ../plugin-options/settings-options.php:33
 msgid "YITH WooCommerce Cart Messages"
 msgstr ""
 
@@ -305,7 +305,9 @@ msgid "Rewrite"
 msgstr ""
 
 #: ../plugin-fw/lib/yit-cpt-unlimited.php:1059
-msgid "Word used in the URL of each project (slug from post if empty)"
+msgid ""
+"Univocal identification name in the URL for each product (slug from post if "
+"empty)"
 msgstr ""
 
 #: ../plugin-fw/lib/yit-cpt-unlimited.php:1064
@@ -340,7 +342,7 @@ msgid "Taxonomy Rewrite"
 msgstr ""
 
 #: ../plugin-fw/lib/yit-cpt-unlimited.php:1083
-msgid "Set the word for each category page URL."
+msgid "Set univocal name for each category page URL."
 msgstr ""
 
 #: ../plugin-fw/lib/yit-cpt-unlimited.php:1088
@@ -373,90 +375,95 @@ msgstr ""
 
 #: ../plugin-fw/lib/yit-cpt-unlimited.php:1631
 #, php-format
-msgid "Add %s by images"
+msgid "Add %s from images"
 msgstr ""
 
 #: ../plugin-fw/lib/yit-cpt-unlimited.php:1633
 msgid "Add with multiupload"
 msgstr ""
 
-#: ../plugin-fw/lib/yit-plugin-panel-wc.php:303
-msgid "The changes you made will be lost if you leave this page."
+#: ../plugin-fw/lib/yit-plugin-panel-wc.php:295
+msgid "The changes you have made will be lost if you leave this page."
 msgstr ""
 
 #: ../plugin-fw/lib/yit-plugin-panel.php:61
 msgid "Plugin Settings"
 msgstr ""
 
-#: ../plugin-fw/lib/yit-plugin-panel.php:92
+#: ../plugin-fw/lib/yit-plugin-panel.php:91
 #: ../plugin-fw/lib/yit-plugin-subpanel.php:101
 msgid "YIT Plugins"
 msgstr ""
 
-#: ../plugin-fw/lib/yit-plugin-panel.php:271
+#: ../plugin-fw/lib/yit-plugin-panel.php:280
 #: ../plugin-fw/lib/yit-plugin-subpanel.php:142
 #: ../plugin-fw/templates/panel/woocommerce/woocommerce-form.php:5
 msgid "Save Changes"
 msgstr ""
 
-#: ../plugin-fw/lib/yit-plugin-panel.php:274
-#: ../plugin-fw/lib/yit-plugin-subpanel.php:145
+#: ../plugin-fw/lib/yit-plugin-panel.php:283
 #: ../plugin-fw/templates/panel/woocommerce/woocommerce-form.php:8
-msgid "If you go on with this action, you will reset all options in this page."
-msgstr ""
-
-#: ../plugin-fw/lib/yit-plugin-panel.php:276
-#: ../plugin-fw/lib/yit-plugin-subpanel.php:147
-#: ../plugin-fw/templates/panel/woocommerce/woocommerce-form.php:10
-msgid "Reset Defaults"
-msgstr ""
-
-#: ../plugin-fw/lib/yit-plugin-panel.php:276
-#: ../plugin-fw/lib/yit-plugin-subpanel.php:147
-#: ../plugin-fw/templates/panel/woocommerce/woocommerce-form.php:10
-msgid "Are you sure of it?"
-msgstr ""
-
-#: ../plugin-fw/lib/yit-plugin-panel.php:410
 msgid ""
-"The element you have written is already exists. Please, add another name."
+"If you continue with this action, you will reset all options in this page."
 msgstr ""
 
-#: ../plugin-fw/lib/yit-plugin-panel.php:411
-msgid "Settings saved"
+#: ../plugin-fw/lib/yit-plugin-panel.php:285
+#: ../plugin-fw/lib/yit-plugin-subpanel.php:147
+msgid "Reset to Default"
 msgstr ""
 
-#: ../plugin-fw/lib/yit-plugin-panel.php:412
-msgid "Settings reset"
-msgstr ""
-
-#: ../plugin-fw/lib/yit-plugin-panel.php:413
-msgid "Element deleted correctly."
-msgstr ""
-
-#: ../plugin-fw/lib/yit-plugin-panel.php:414
-#: ../plugin-fw/lib/yit-plugin-panel.php:415
-msgid "Element updated correctly."
-msgstr ""
-
-#: ../plugin-fw/lib/yit-plugin-panel.php:416
-msgid "Database imported correctly."
-msgstr ""
-
-#: ../plugin-fw/lib/yit-plugin-panel.php:417
-msgid "An error has occurred during import. Please try again."
-msgstr ""
-
-#: ../plugin-fw/lib/yit-plugin-panel.php:418
-msgid "The file inserted is not valid."
+#: ../plugin-fw/lib/yit-plugin-panel.php:285
+#: ../plugin-fw/lib/yit-plugin-subpanel.php:147
+#: ../plugin-fw/templates/panel/woocommerce/woocommerce-form.php:10
+msgid "Are you sure?"
 msgstr ""
 
 #: ../plugin-fw/lib/yit-plugin-panel.php:419
-msgid "Sorry, import is disabled."
+msgid ""
+"The element you have entered already exists. Please, enter another name."
 msgstr ""
 
 #: ../plugin-fw/lib/yit-plugin-panel.php:420
+msgid "Settings saved"
+msgstr ""
+
+#: ../plugin-fw/lib/yit-plugin-panel.php:421
+msgid "Settings reset"
+msgstr ""
+
+#: ../plugin-fw/lib/yit-plugin-panel.php:422
+msgid "Element deleted correctly."
+msgstr ""
+
+#: ../plugin-fw/lib/yit-plugin-panel.php:423
+#: ../plugin-fw/lib/yit-plugin-panel.php:424
+msgid "Element updated correctly."
+msgstr ""
+
+#: ../plugin-fw/lib/yit-plugin-panel.php:425
+msgid "Database imported correctly."
+msgstr ""
+
+#: ../plugin-fw/lib/yit-plugin-panel.php:426
+msgid "An error has occurred during import. Please try again."
+msgstr ""
+
+#: ../plugin-fw/lib/yit-plugin-panel.php:427
+msgid "The added file is not valid."
+msgstr ""
+
+#: ../plugin-fw/lib/yit-plugin-panel.php:428
+msgid "Sorry, import is disabled."
+msgstr ""
+
+#: ../plugin-fw/lib/yit-plugin-panel.php:429
 msgid "Sorting successful."
+msgstr ""
+
+#: ../plugin-fw/lib/yit-plugin-subpanel.php:145
+msgid ""
+"If you continue with this action, you will reset all the options in this "
+"page."
 msgstr ""
 
 #: ../plugin-fw/lib/yit-pointers.php:70
@@ -484,13 +491,12 @@ msgstr ""
 
 #: ../plugin-fw/lib/yit-pointers.php:85
 msgid ""
-"From now on, you can find all the options of your plugins in YIT Plugin "
-"menu.\n"
+"From now on, you can find all options of your plugins in YIT Plugin menu.\n"
 "                                    Any time one of our plugins is updated, "
 "a new entry will be added to this menu.\n"
-"                                    For example, after update, plugin "
-"options (such for YITH WooCommerce Wishlist, YITH WooCommerce Ajax Search, "
-"etc.)\n"
+"                                    For example, after the update, plugin "
+"options (such as for YITH WooCommerce Wishlist, YITH WooCommerce Ajax "
+"Search, etc.)\n"
 "                                    will be moved from previous location to "
 "YIT Plugin tab."
 msgstr ""
@@ -509,7 +515,7 @@ msgstr ""
 
 #: ../plugin-fw/lib/yit-upgrade.php:122
 msgid ""
-"please <a href=\"%activate_link%\"> activate </a> your copy of %plugin_name%."
+"please <a href=\"%activate_link%\">activate</a> your copy of %plugin_name%."
 msgstr ""
 
 #: ../plugin-fw/lib/yit-upgrade.php:123
@@ -562,59 +568,60 @@ msgid ""
 msgstr ""
 
 #: ../plugin-fw/lib/yit-upgrade.php:493
-msgid "You can't update plugins for this site."
+msgid "You can't update the plugins for this site."
 msgstr ""
 
 #: ../plugin-fw/lib/yit-upgrade.php:497
-msgid "You do not have sufficient permissions to update plugins for this site."
+msgid ""
+"You do not have sufficient permissions to update the plugins for this site."
 msgstr ""
 
 #: ../plugin-fw/lib/yit-upgrade.php:504
 msgid "Update Plugin"
 msgstr ""
 
-#: ../plugin-fw/licence/lib/yit-licence.php:148
+#: ../plugin-fw/licence/lib/yit-licence.php:156
 #, php-format
 msgid "%field% field cannot be empty"
 msgstr ""
 
-#: ../plugin-fw/licence/lib/yit-licence.php:149
+#: ../plugin-fw/licence/lib/yit-licence.php:157
 msgid "%field_1% and %field_2% fields cannot be empty"
 msgstr ""
 
-#: ../plugin-fw/licence/lib/yit-licence.php:150
+#: ../plugin-fw/licence/lib/yit-licence.php:158
 msgid "Unable to contact the remote server, please try again later. Thanks!"
 msgstr ""
 
-#: ../plugin-fw/licence/lib/yit-licence.php:529
+#: ../plugin-fw/licence/lib/yit-licence.php:537
 msgid "Invalid Request"
 msgstr ""
 
-#: ../plugin-fw/licence/lib/yit-licence.php:530
+#: ../plugin-fw/licence/lib/yit-licence.php:538
 msgid "Invalid licence key"
 msgstr ""
 
-#: ../plugin-fw/licence/lib/yit-licence.php:531
-msgid "Software has been deactivate"
+#: ../plugin-fw/licence/lib/yit-licence.php:539
+msgid "Software has been deactivated"
 msgstr ""
 
-#: ../plugin-fw/licence/lib/yit-licence.php:532
-msgid "Exceeded maximum number of activations"
+#: ../plugin-fw/licence/lib/yit-licence.php:540
+msgid "Maximum number of activations exceeded"
 msgstr ""
 
-#: ../plugin-fw/licence/lib/yit-licence.php:533
+#: ../plugin-fw/licence/lib/yit-licence.php:541
 msgid "Invalid instance ID"
 msgstr ""
 
-#: ../plugin-fw/licence/lib/yit-licence.php:534
+#: ../plugin-fw/licence/lib/yit-licence.php:542
 msgid "Invalid security key"
 msgstr ""
 
-#: ../plugin-fw/licence/lib/yit-licence.php:535
+#: ../plugin-fw/licence/lib/yit-licence.php:543
 msgid "Licence key has expired"
 msgstr ""
 
-#: ../plugin-fw/licence/lib/yit-licence.php:536
+#: ../plugin-fw/licence/lib/yit-licence.php:544
 msgid "Licence key has been banned"
 msgstr ""
 
@@ -784,7 +791,7 @@ msgstr ""
 
 #: ../plugin-fw/templates/metaboxes/types/contactform.php:78
 #: ../plugin-fw/templates/metaboxes/types/contactform.php:270
-msgid "Insert title for the field."
+msgid "Insert the title for the field."
 msgstr ""
 
 #: ../plugin-fw/templates/metaboxes/types/contactform.php:83
@@ -806,7 +813,7 @@ msgstr ""
 
 #: ../plugin-fw/templates/metaboxes/types/contactform.php:100
 #: ../plugin-fw/templates/metaboxes/types/contactform.php:292
-msgid "Select type for this field."
+msgid "Select the type for this field."
 msgstr ""
 
 #: ../plugin-fw/templates/metaboxes/types/contactform.php:105
@@ -816,7 +823,7 @@ msgstr ""
 
 #: ../plugin-fw/templates/metaboxes/types/contactform.php:109
 #: ../plugin-fw/templates/metaboxes/types/contactform.php:301
-msgid "Select this if you want this field already checked."
+msgid "Select this option if you want this field appears as already checked."
 msgstr ""
 
 #: ../plugin-fw/templates/metaboxes/types/contactform.php:114
@@ -843,7 +850,7 @@ msgstr ""
 
 #: ../plugin-fw/templates/metaboxes/types/contactform.php:127
 #: ../plugin-fw/templates/metaboxes/types/contactform.php:319
-msgid "Message Error"
+msgid "Error Message"
 msgstr ""
 
 #: ../plugin-fw/templates/metaboxes/types/contactform.php:131
@@ -858,12 +865,12 @@ msgstr ""
 
 #: ../plugin-fw/templates/metaboxes/types/contactform.php:140
 #: ../plugin-fw/templates/metaboxes/types/contactform.php:332
-msgid "Select this if it must be required."
+msgid "Select this option if it must be required."
 msgstr ""
 
 #: ../plugin-fw/templates/metaboxes/types/contactform.php:149
 #: ../plugin-fw/templates/metaboxes/types/contactform.php:341
-msgid "Select this if it must be a valid email."
+msgid "Select this option if the email must be valid."
 msgstr ""
 
 #: ../plugin-fw/templates/metaboxes/types/contactform.php:154
@@ -1002,10 +1009,6 @@ msgstr ""
 msgid "No sidebar"
 msgstr ""
 
-#: ../plugin-fw/templates/metaboxes/types/sidebar-layout.php:28
-msgid "No sideabr"
-msgstr ""
-
 #: ../plugin-fw/templates/metaboxes/types/sidebar-layout.php:31
 #: ../plugin-fw/templates/metaboxes/types/sidebars.php:39
 msgid "Right sidebar"
@@ -1069,6 +1072,10 @@ msgstr ""
 
 #: ../plugin-fw/templates/metaboxes/types/typography.php:100
 msgid "Italic bold"
+msgstr ""
+
+#: ../plugin-fw/templates/panel/woocommerce/woocommerce-form.php:10
+msgid "Reset Defaults"
 msgstr ""
 
 #: ../plugin-options/metabox/ywcm_metabox.php:14
@@ -1149,40 +1156,40 @@ msgstr ""
 msgid "Choose a date until this message will appear"
 msgstr ""
 
-#: ../plugin-options/settings-options.php:21
+#: ../plugin-options/settings-options.php:22
 msgid "Upgrade to the PREMIUM VERSION"
 msgstr ""
 
-#: ../plugin-options/settings-options.php:25
+#: ../plugin-options/settings-options.php:26
 msgid "Discover the Advanced Features"
 msgstr ""
 
-#: ../plugin-options/settings-options.php:26
+#: ../plugin-options/settings-options.php:27
 msgid ""
 "Upgrade to the PREMIUM VERSION\n"
 "of YITH WooCommerce Cart Messages to benefit from all features!"
 msgstr ""
 
-#: ../plugin-options/settings-options.php:34
+#: ../plugin-options/settings-options.php:35
 msgid "Get Support and Pro Features"
 msgstr ""
 
-#: ../plugin-options/settings-options.php:35
+#: ../plugin-options/settings-options.php:36
 msgid ""
 "By purchasing the premium version of the plugin, you will take advantage of "
 "the advanced features of the product and you will get one year of free "
 "updates and support through our platform available 24h/24."
 msgstr ""
 
-#: ../plugin-options/settings-options.php:45
+#: ../plugin-options/settings-options.php:46
 msgid "General settings"
 msgstr ""
 
-#: ../plugin-options/settings-options.php:51
+#: ../plugin-options/settings-options.php:52
 msgid "Show in cart"
 msgstr ""
 
-#: ../plugin-options/settings-options.php:59
+#: ../plugin-options/settings-options.php:60
 msgid "Show in checkout"
 msgstr ""
 
@@ -1190,14 +1197,14 @@ msgstr ""
 msgid "All categories"
 msgstr ""
 
-#: ../yith-cart-messages.php:26
-msgid ""
-"YITH WooCommerce Cart Messages is enabled but not effective. It requires "
-"Woocommerce in order to work."
-msgstr ""
-
-#: ../yith-cart-messages.php:39
+#: ../yith-cart-messages.php:27
 msgid ""
 "You can't activate the free version of YITH WooCommerce Cart Messages while "
 "you are using the premium one."
+msgstr ""
+
+#: ../yith-cart-messages.php:82
+msgid ""
+"YITH WooCommerce Cart Messages is enabled but not effective. It requires "
+"Woocommerce in order to work."
 msgstr ""

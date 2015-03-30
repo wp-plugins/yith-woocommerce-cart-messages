@@ -5,7 +5,7 @@ Plugin URI: http://yithemes.com/themes/plugins/yith-woocommerce-cart-messages
 Description: WooCommerce plugin for add custom messages to your customers
 Author: Yithemes
 Text Domain: ywcm
-Version: 1.0.2
+Version: 1.0.3
 Author URI: http://yithemes.com/
 */
 
@@ -19,18 +19,6 @@ if ( ! function_exists( 'is_plugin_active' ) ) {
 }
 
 
-if ( !function_exists( 'WC' ) ) {
-    function yith_ywcm_install_woocommerce_admin_notice() {
-        ?>
-        <div class="error">
-            <p><?php _e( 'YITH WooCommerce Cart Messages is enabled but not effective. It requires Woocommerce in order to work.', 'ywcm' ); ?></p>
-        </div>
-    <?php
-    }
-
-    add_action( 'admin_notices', 'yith_ywcm_install_woocommerce_admin_notice' );
-    return;
-}
 
 if ( defined( 'YITH_YWCM_PREMIUM' ) ) {
     function yith_ywcm_install_free_admin_notice() {
@@ -57,7 +45,7 @@ register_activation_hook( __FILE__, 'yith_plugin_registration_hook' );
 if ( defined( 'YITH_YWCM_VERSION' ) ) {
 	return;
 }else{
-    define( 'YITH_YWCM_VERSION', '1.0.2' );
+    define( 'YITH_YWCM_VERSION', '1.0.3' );
 }
 
 if ( ! defined( 'YITH_YWCM_FREE_INIT' ) ) {
@@ -84,16 +72,31 @@ if ( ! defined( 'YITH_YWCM_TEMPLATE_PATH' ) ) {
 	define( 'YITH_YWCM_TEMPLATE_PATH', YITH_YWCM_DIR . 'templates' );
 }
 
+// Load required classes and functions _________________________
+function yith_ywcm_constructor(){
+    // Woocommerce installation check _________________________
+    if ( !function_exists( 'WC' ) ) {
+        function yith_ywcm_install_woocommerce_admin_notice() {
+            ?>
+            <div class="error">
+                <p><?php _e( 'YITH WooCommerce Cart Messages is enabled but not effective. It requires Woocommerce in order to work.', 'ywcm' ); ?></p>
+            </div>
+        <?php
+        }
 
+        add_action( 'admin_notices', 'yith_ywcm_install_woocommerce_admin_notice' );
+        return;
+    }
 
-/* Load YITH_YWCM text domain */
-load_plugin_textdomain( 'ywcm', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+    /* Load YITH_YWCM text domain */
+    load_plugin_textdomain( 'ywcm', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 
+    // Load required classes and functions
+    require_once( YITH_YWCM_DIR . 'yith-cart-messages-functions.php' );
+    require_once( YITH_YWCM_DIR . 'class.yith-woocommerce-cart-message.php' );
+    require_once( YITH_YWCM_DIR . 'class.yith-woocommerce-cart-messages.php' );
 
-// Load required classes and functions
-require_once( YITH_YWCM_DIR . 'yith-cart-messages-functions.php' );
-require_once( YITH_YWCM_DIR . 'class.yith-woocommerce-cart-message.php' );
-require_once( YITH_YWCM_DIR . 'class.yith-woocommerce-cart-messages.php' );
-
-global $YWCM_Instance;
-$YWCM_Instance = new YWCM_Cart_Messages();
+    global $YWCM_Instance;
+    $YWCM_Instance = new YWCM_Cart_Messages();
+}
+add_action( 'plugins_loaded', 'yith_ywcm_constructor' );

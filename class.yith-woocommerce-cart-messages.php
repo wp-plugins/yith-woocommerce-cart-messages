@@ -213,7 +213,7 @@ if ( !class_exists( 'YWCM_Cart_Messages' ) ) {
 
             $links[] = '<a href="' . admin_url( "admin.php?page={$this->_panel_page}" ) . '">' . __( 'Settings', 'ywcm' ) . '</a>';
             if ( defined( 'YITH_YWCM_FREE_INIT' ) ) {
-                $links[] = '<a href="' . $this->_premium_landing . '" target="_blank">' . __( 'Premium Version', 'ywcm' ) . '</a>';
+                $links[] = '<a href="' . $this->get_premium_landing_uri() . '" target="_blank">' . __( 'Premium Version', 'ywcm' ) . '</a>';
             }
 
             return $links;
@@ -495,7 +495,7 @@ if ( !class_exists( 'YWCM_Cart_Messages' ) ) {
                     __( 'YITH WooCommerce Cart Messages', 'ywcm' ),
                     __( 'In the YIT Plugins tab you can find the YITH WooCommerce Cart Messages options.
 With this menu, you can access to all the settings of our plugins that you have activated.
-YITH WooCommerce Cart Messages is available in an outstanding PREMIUM version with many new options, <a href="'.$this->_premium_landing.'">discover it now</a>', 'ywcm' )
+YITH WooCommerce Cart Messages is available in an outstanding PREMIUM version with many new options, <a href="'.$this->get_premium_landing_uri().'">discover it now</a>', 'ywcm' )
                 ),
                 'position'   => array( 'edge' => 'left', 'align' => 'center' ),
                 'init'  => YITH_YWCM_FREE_INIT
@@ -505,6 +505,16 @@ YITH WooCommerce Cart Messages is available in an outstanding PREMIUM version wi
             YIT_Pointers()->register( $args );
         }
 
+        /**
+         * Get the premium landing uri
+         *
+         * @since   1.0.0
+         * @author  Andrea Grillo <andrea.grillo@yithemes.com>
+         * @return  string The premium landing link
+         */
+        public function get_premium_landing_uri(){
+            return defined( 'YITH_REFER_ID' ) ? $this->_premium_landing . '?refer_id=' . YITH_REFER_ID : $this->_premium_landing;
+        }
 
     }
 }

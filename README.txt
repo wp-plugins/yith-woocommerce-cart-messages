@@ -3,8 +3,8 @@
 Contributors: yithemes
 Tags: cart, notices, yithemes, message, woocommerce, shop, ecommece, e-commerce
 Requires at least: 3.5.1
-Tested up to: 4.1
-Stable tag: 1.0.2
+Tested up to: 4.1.1
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -58,6 +58,10 @@ In Yit Plugins->Cart Messages ->Settings page, you can choose where to show the 
 3. Single Message Editor
 
 == Changelog ==
+
+= 1.0.3 =
+* Fix: Support to WPML
+* Updated: Plugin core framework
 
 = 1.0.2 =
 * Added: Support to WooCommerce 2.3.x
