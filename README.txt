@@ -1,7 +1,7 @@
 === YITH WooCommerce Cart Messages ===
 
 Contributors: yithemes
-Tags: cart, notices, yithemes, message, woocommerce, shop, ecommece, e-commerce
+Tags: cart, notices, yithemes, message, woocommerce, shop, ecommerce, e-commerce, cart notices, notifications, show notice, checkout notice, checkout message, deadline notices, deadline message
 Requires at least: 3.5.1
 Tested up to: 4.1.1
 Stable tag: 1.0.3
@@ -13,37 +13,38 @@ The YITH Woocommerce Cart Messages plugin let you add custom messages in the car
 
 == Description ==
 
+= Improve the user experience, improve your sales =
+
 Improve the user experience, improve your sales
 The YITH Woocommerce Cart Messages plugin let you add custom messages in the cart page and/or in the checkout page.
 In this plugin you can use the simple message, the products in cart and the categories in cart messages.
 
-Please, read the the **[official plugin documentation](http://yithemes.com/docs-plugins/yith-woocommerce-cart-messages)** to know all plugin features.
 
 
-= Installation =
+**Types of message:**
 
-Once you have installed the plugin, you just need to activate the plugin in order to enable it.
-
-= Configuration =
-
-YITH WooCommerce Cart Messages will add a new submenu called "Cart Messages" under "YIT Plugins" menu. Here you are able to configure all the plugin settings.
-You can add messages from Woocommerce -> YITH Cart Messages subpanel.
+* Simple message: you can add free text in the message
+* "Products in cart" message: it allows you to create messages according to some specific products in cart
+* "Categories in cart" message: it allows you to create messages according to some specific categories in cart.
 
 
-= Support =
-Already knew it, right?! Great, but maybe you do not know that: if you're looking for how to install the plugins or how to use them within your Wordpress installations, which is the right way to ask support?
-That's the way:
+For a more detailed list of options and features of the plugin, please look at the [official documentation](http://yithemes.com/docs-plugins/yith-woocommerce-cart-messages "YITH WooCommerce Cart Messages official documentation").
 
-* Register on http://yithemes.com
-* Go to Support > Get Support
-
-Here we provide support, not on wordpress.org were, usually we do not read topics. It's better to follow us or write on our forum!
 
 == Installation ==
+Important: First of all, you have to download and activate WooCommerce plugin, which is mandatory for YITH WooCommerce Cart Messages to be working.
 
 1. Unzip the downloaded zip file.
 2. Upload the plugin folder into the `wp-content/plugins/` directory of your WordPress site.
 3. Activate `YITH WooCommerce Cart Messages` from Plugins page
+
+= Configuration =
+YITH WooCommerce Cart Messages will add a new tab called "Cart Messsages" in "YIT Plugins" menu item. There, you will find all Yithemes plugins with quick access to plugin setting page.
+
+
+== Suggestions ==
+If you have any suggestions concerning how to improve YITH WooCommerce Cart Messages, you can [write to us](mailto:plugins@yithemes.com "Your Inspiration Themes"), so that we can improve YITH WooCommerce Cart Messages.
+
 
 == Frequently Asked Questions ==
 
@@ -56,8 +57,28 @@ In Yit Plugins->Cart Messages ->Settings page, you can choose where to show the 
 1. The plugin show custom messages on cart page
 2. The List of Message
 3. Single Message Editor
+4. Settings Page
 
 == Changelog ==
+
+= 1.0.3 =
+* Fix: Support to WPML
+* Updated: Plugin core framework
+
+= 1.0.2 =
+* Added: Support to WooCommerce 2.3.x
+* Added: Support to WPML
+
+= 1.0.1 =
+
+* Updated: Plugin core framework
+* Fixed: issue with upload fields
+
+= 1.0.0 =
+
+* Initial release
+
+== Upgrade notice ==
 
 = 1.0.3 =
 * Fix: Support to WPML
