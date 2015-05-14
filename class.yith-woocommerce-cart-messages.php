@@ -90,7 +90,7 @@ if ( !class_exists( 'YWCM_Cart_Messages' ) ) {
 
         private function create_menu_items() {
             add_action( 'after_setup_theme', array( $this, 'plugin_fw_loader' ), 1 );
-            add_action( 'after_setup_theme', array( $this, 'call_instance_object' ), 2 );
+            add_action( 'after_setup_theme', array( $this, 'call_instance_object' ), 5 );
 
             // Add a panel under YITH Plugins tab
             add_action( 'admin_menu', array( $this, 'register_panel' ), 5 );
