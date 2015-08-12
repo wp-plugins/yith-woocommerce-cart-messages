@@ -4,7 +4,7 @@ Contributors: yithemes
 Tags: cart, notices, yithemes, message, woocommerce, shop, ecommerce, e-commerce, cart notices, notifications, show notice, checkout notice, checkout message, deadline notices, deadline message
 Requires at least: 3.5.1
 Tested up to: 4.1.1
-Stable tag: 1.0.3
+Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -19,14 +19,11 @@ Improve the user experience, improve your sales
 The YITH Woocommerce Cart Messages plugin let you add custom messages in the cart page and/or in the checkout page.
 In this plugin you can use the simple message, the products in cart and the categories in cart messages.
 
-
-
 **Types of message:**
 
 * Simple message: you can add free text in the message
 * "Products in cart" message: it allows you to create messages according to some specific products in cart
 * "Categories in cart" message: it allows you to create messages according to some specific categories in cart.
-
 
 For a more detailed list of options and features of the plugin, please look at the [official documentation](http://yithemes.com/docs-plugins/yith-woocommerce-cart-messages "YITH WooCommerce Cart Messages official documentation").
 
@@ -61,6 +58,14 @@ In Yit Plugins->Cart Messages ->Settings page, you can choose where to show the 
 
 == Changelog ==
 
+= 1.1.1 =
+* Added: Support to WooCommerce 2.4.2
+* Updated: Plugin Core Framework
+
+= 1.1.0 =
+* Fixed: add_query_arg() and remove_query_arg() usage
+* Updated: Plugin core framework
+
 = 1.0.3 =
 * Fix: Support to WPML
 * Updated: Plugin core framework
@@ -79,6 +84,9 @@ In Yit Plugins->Cart Messages ->Settings page, you can choose where to show the 
 * Initial release
 
 == Upgrade notice ==
+= 1.1.0 =
+* Fixed: add_query_arg() and remove_query_arg() usage
+* Updated: Plugin core framework
 
 = 1.0.3 =
 * Fix: Support to WPML

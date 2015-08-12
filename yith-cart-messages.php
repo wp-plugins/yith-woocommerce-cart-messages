@@ -5,7 +5,7 @@ Plugin URI: http://yithemes.com/themes/plugins/yith-woocommerce-cart-messages
 Description: WooCommerce plugin for add custom messages to your customers
 Author: Yithemes
 Text Domain: ywcm
-Version: 1.0.3
+Version: 1.1.1
 Author URI: http://yithemes.com/
 */
 
@@ -45,7 +45,7 @@ register_activation_hook( __FILE__, 'yith_plugin_registration_hook' );
 if ( defined( 'YITH_YWCM_VERSION' ) ) {
 	return;
 }else{
-    define( 'YITH_YWCM_VERSION', '1.0.3' );
+    define( 'YITH_YWCM_VERSION', '1.1.1' );
 }
 
 if ( ! defined( 'YITH_YWCM_FREE_INIT' ) ) {
@@ -79,7 +79,7 @@ function yith_ywcm_constructor(){
         function yith_ywcm_install_woocommerce_admin_notice() {
             ?>
             <div class="error">
-                <p><?php _e( 'YITH WooCommerce Cart Messages is enabled but not effective. It requires Woocommerce in order to work.', 'ywcm' ); ?></p>
+                <p><?php _e( 'YITH WooCommerce Cart Messages is enabled but not effective. It requires WooCommerce in order to work.', 'ywcm' ); ?></p>
             </div>
         <?php
         }
